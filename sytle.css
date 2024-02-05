@@ -1,0 +1,39 @@
+
+fieldset{
+    width: 500px;
+    height: 500px;
+    background-color:beige;
+}
+h2{
+    text-align: center;
+    color: black;
+    padding-bottom: 5px;
+}
+label{
+    font-size: larger;
+}
+input{
+    margin: 10px;
+    padding: 5px;
+    width: 300px;
+    
+}
+select{
+    margin: 10px;
+    padding: 5px;
+    
+}
+textarea{
+    margin: 10px;
+    padding: 5px;
+    
+}
+button{
+    background-color: rgb(38, 128, 201);
+    padding: 5px;
+    margin: 20px;
+    border-style: none;
+   
+
+}
+
