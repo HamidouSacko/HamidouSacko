@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon_site</title>
+    <title>Formulaire d'achat</title>
 </head>
+
 <body>
-    <form action="" method="">
-        <h1>Contact Form</h1>
+    <form action="" method="post">
         <div>
-            <label>Nom :</label>
-            <input type="text" name="name" id="" maxlength="50">
+            <label for="name">Nom complet</label>
+            <input type="text">
+        </div><br>
+        <div>
+            <label for="typeE">Type evenement</label>
+            <select name="typeE" id="">
+                <option value="cinema">cinema</option>
+                <option >Concert</option>
+
+            </select>
 
         </div><br>
         <div>
-            <label>Email :</label>
-            <input type="text" name="" id="email">
+            <label for="Categorie">Categorie</label>
+            <select name="Categorie" id="Categorie">
+                <option value="VIP">VIP</option>
+                <option value="Gold">Gold</option>
+
+            </select>
+
         </div><br>
-        <div>
-            <label>Message :</label>
-            <textarea name="message" id="" cols="30" rows="5"></textarea>
-        </div><br>
-        <input type="submit">
-        
+        <label for="montant">Tarif</label>
+        <select name="" id="">
+            <option value=""></option>
+            <option value=""></option>
+        </select><br>
+        <button type="submit">Valide</button>
+
     </form>
-    
+
 </body>
+
 </html>
